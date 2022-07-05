@@ -1,0 +1,20 @@
+body{
+    background-color:whitesmoke;
+}
+.gallery-content>img{
+    width: 350px;
+    height: 350px;
+}
+.gallery-content{
+    
+    width: 50px;
+    border:40px red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 300ms all ease-in;
+}
+.gallery-content:hover{
+    border: 2px rgb(43, 9, 236);
+    transform: scale(1.05);
+}
